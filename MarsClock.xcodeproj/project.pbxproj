@@ -17,7 +17,7 @@
 		61121F1817D3599300E4E932 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61121F1717D3599300E4E932 /* XCTest.framework */; };
 		61121F1917D3599300E4E932 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61121EF817D3599300E4E932 /* Cocoa.framework */; };
 		61121F2117D3599300E4E932 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 61121F1F17D3599300E4E932 /* InfoPlist.strings */; };
-		61121F2317D3599300E4E932 /* WorldClockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61121F2217D3599300E4E932 /* WorldClockTests.m */; };
+		61121F2317D3599300E4E932 /* MarsClockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61121F2217D3599300E4E932 /* MarsClockTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,30 +26,30 @@
 			containerPortal = 61121EED17D3599300E4E932 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 61121EF417D3599300E4E932;
-			remoteInfo = WorldClock;
+			remoteInfo = MarsClock;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		61121EF517D3599300E4E932 /* WorldClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61121EF517D3599300E4E932 /* MarsClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarsClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61121EF817D3599300E4E932 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		61121EFB17D3599300E4E932 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		61121EFC17D3599300E4E932 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		61121EFD17D3599300E4E932 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		61121F0017D3599300E4E932 /* WorldClock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WorldClock-Info.plist"; sourceTree = "<group>"; };
+		61121F0017D3599300E4E932 /* MarsClock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MarsClock-Info.plist"; sourceTree = "<group>"; };
 		61121F0217D3599300E4E932 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		61121F0417D3599300E4E932 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		61121F0617D3599300E4E932 /* WorldClock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WorldClock-Prefix.pch"; sourceTree = "<group>"; };
+		61121F0617D3599300E4E932 /* MarsClock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MarsClock-Prefix.pch"; sourceTree = "<group>"; };
 		61121F0817D3599300E4E932 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		61121F0A17D3599300E4E932 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		61121F0B17D3599300E4E932 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		61121F0E17D3599300E4E932 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		61121F1017D3599300E4E932 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		61121F1617D3599300E4E932 /* WorldClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61121F1617D3599300E4E932 /* MarsClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarsClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61121F1717D3599300E4E932 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		61121F1E17D3599300E4E932 /* WorldClockTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WorldClockTests-Info.plist"; sourceTree = "<group>"; };
+		61121F1E17D3599300E4E932 /* MarsClockTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MarsClockTests-Info.plist"; sourceTree = "<group>"; };
 		61121F2017D3599300E4E932 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		61121F2217D3599300E4E932 /* WorldClockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorldClockTests.m; sourceTree = "<group>"; };
+		61121F2217D3599300E4E932 /* MarsClockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarsClockTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +76,8 @@
 		61121EEC17D3599300E4E932 = {
 			isa = PBXGroup;
 			children = (
-				61121EFE17D3599300E4E932 /* WorldClock */,
-				61121F1C17D3599300E4E932 /* WorldClockTests */,
+				61121EFE17D3599300E4E932 /* MarsClock */,
+				61121F1C17D3599300E4E932 /* MarsClockTests */,
 				61121EF717D3599300E4E932 /* Frameworks */,
 				61121EF617D3599300E4E932 /* Products */,
 			);
@@ -86,8 +86,8 @@
 		61121EF617D3599300E4E932 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				61121EF517D3599300E4E932 /* WorldClock.app */,
-				61121F1617D3599300E4E932 /* WorldClockTests.xctest */,
+				61121EF517D3599300E4E932 /* MarsClock.app */,
+				61121F1617D3599300E4E932 /* MarsClockTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,7 +112,7 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		61121EFE17D3599300E4E932 /* WorldClock */ = {
+		61121EFE17D3599300E4E932 /* MarsClock */ = {
 			isa = PBXGroup;
 			children = (
 				61121F0A17D3599300E4E932 /* AppDelegate.h */,
@@ -121,34 +121,34 @@
 				61121F1017D3599300E4E932 /* Images.xcassets */,
 				61121EFF17D3599300E4E932 /* Supporting Files */,
 			);
-			path = WorldClock;
+			path = MarsClock;
 			sourceTree = "<group>";
 		};
 		61121EFF17D3599300E4E932 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				61121F0017D3599300E4E932 /* WorldClock-Info.plist */,
+				61121F0017D3599300E4E932 /* MarsClock-Info.plist */,
 				61121F0117D3599300E4E932 /* InfoPlist.strings */,
 				61121F0417D3599300E4E932 /* main.m */,
-				61121F0617D3599300E4E932 /* WorldClock-Prefix.pch */,
+				61121F0617D3599300E4E932 /* MarsClock-Prefix.pch */,
 				61121F0717D3599300E4E932 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		61121F1C17D3599300E4E932 /* WorldClockTests */ = {
+		61121F1C17D3599300E4E932 /* MarsClockTests */ = {
 			isa = PBXGroup;
 			children = (
-				61121F2217D3599300E4E932 /* WorldClockTests.m */,
+				61121F2217D3599300E4E932 /* MarsClockTests.m */,
 				61121F1D17D3599300E4E932 /* Supporting Files */,
 			);
-			path = WorldClockTests;
+			path = MarsClockTests;
 			sourceTree = "<group>";
 		};
 		61121F1D17D3599300E4E932 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				61121F1E17D3599300E4E932 /* WorldClockTests-Info.plist */,
+				61121F1E17D3599300E4E932 /* MarsClockTests-Info.plist */,
 				61121F1F17D3599300E4E932 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -157,9 +157,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		61121EF417D3599300E4E932 /* WorldClock */ = {
+		61121EF417D3599300E4E932 /* MarsClock */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 61121F2617D3599300E4E932 /* Build configuration list for PBXNativeTarget "WorldClock" */;
+			buildConfigurationList = 61121F2617D3599300E4E932 /* Build configuration list for PBXNativeTarget "MarsClock" */;
 			buildPhases = (
 				61121EF117D3599300E4E932 /* Sources */,
 				61121EF217D3599300E4E932 /* Frameworks */,
@@ -169,14 +169,14 @@
 			);
 			dependencies = (
 			);
-			name = WorldClock;
-			productName = WorldClock;
-			productReference = 61121EF517D3599300E4E932 /* WorldClock.app */;
+			name = MarsClock;
+			productName = MarsClock;
+			productReference = 61121EF517D3599300E4E932 /* MarsClock.app */;
 			productType = "com.apple.product-type.application";
 		};
-		61121F1517D3599300E4E932 /* WorldClockTests */ = {
+		61121F1517D3599300E4E932 /* MarsClockTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 61121F2917D3599300E4E932 /* Build configuration list for PBXNativeTarget "WorldClockTests" */;
+			buildConfigurationList = 61121F2917D3599300E4E932 /* Build configuration list for PBXNativeTarget "MarsClockTests" */;
 			buildPhases = (
 				61121F1217D3599300E4E932 /* Sources */,
 				61121F1317D3599300E4E932 /* Frameworks */,
@@ -187,9 +187,9 @@
 			dependencies = (
 				61121F1B17D3599300E4E932 /* PBXTargetDependency */,
 			);
-			name = WorldClockTests;
-			productName = WorldClockTests;
-			productReference = 61121F1617D3599300E4E932 /* WorldClockTests.xctest */;
+			name = MarsClockTests;
+			productName = MarsClockTests;
+			productReference = 61121F1617D3599300E4E932 /* MarsClockTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 61121EF017D3599300E4E932 /* Build configuration list for PBXProject "WorldClock" */;
+			buildConfigurationList = 61121EF017D3599300E4E932 /* Build configuration list for PBXProject "MarsClock" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -219,8 +219,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				61121EF417D3599300E4E932 /* WorldClock */,
-				61121F1517D3599300E4E932 /* WorldClockTests */,
+				61121EF417D3599300E4E932 /* MarsClock */,
+				61121F1517D3599300E4E932 /* MarsClockTests */,
 			);
 		};
 /* End PBXProject section */
@@ -261,7 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61121F2317D3599300E4E932 /* WorldClockTests.m in Sources */,
+				61121F2317D3599300E4E932 /* MarsClockTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +270,7 @@
 /* Begin PBXTargetDependency section */
 		61121F1B17D3599300E4E932 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 61121EF417D3599300E4E932 /* WorldClock */;
+			target = 61121EF417D3599300E4E932 /* MarsClock */;
 			targetProxy = 61121F1A17D3599300E4E932 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -387,8 +387,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "WorldClock/WorldClock-Prefix.pch";
-				INFOPLIST_FILE = "WorldClock/WorldClock-Info.plist";
+				GCC_PREFIX_HEADER = "MarsClock/MarsClock-Prefix.pch";
+				INFOPLIST_FILE = "MarsClock/MarsClock-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -401,8 +401,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "WorldClock/WorldClock-Prefix.pch";
-				INFOPLIST_FILE = "WorldClock/WorldClock-Info.plist";
+				GCC_PREFIX_HEADER = "MarsClock/MarsClock-Prefix.pch";
+				INFOPLIST_FILE = "MarsClock/MarsClock-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -412,19 +412,19 @@
 		61121F2A17D3599300E4E932 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WorldClock.app/Contents/MacOS/WorldClock";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MarsClock.app/Contents/MacOS/MarsClock";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "WorldClock/WorldClock-Prefix.pch";
+				GCC_PREFIX_HEADER = "MarsClock/MarsClock-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "WorldClockTests/WorldClockTests-Info.plist";
+				INFOPLIST_FILE = "MarsClockTests/MarsClockTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -434,15 +434,15 @@
 		61121F2B17D3599300E4E932 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WorldClock.app/Contents/MacOS/WorldClock";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MarsClock.app/Contents/MacOS/MarsClock";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "WorldClock/WorldClock-Prefix.pch";
-				INFOPLIST_FILE = "WorldClockTests/WorldClockTests-Info.plist";
+				GCC_PREFIX_HEADER = "MarsClock/MarsClock-Prefix.pch";
+				INFOPLIST_FILE = "MarsClockTests/MarsClockTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -452,7 +452,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		61121EF017D3599300E4E932 /* Build configuration list for PBXProject "WorldClock" */ = {
+		61121EF017D3599300E4E932 /* Build configuration list for PBXProject "MarsClock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				61121F2417D3599300E4E932 /* Debug */,
@@ -461,7 +461,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		61121F2617D3599300E4E932 /* Build configuration list for PBXNativeTarget "WorldClock" */ = {
+		61121F2617D3599300E4E932 /* Build configuration list for PBXNativeTarget "MarsClock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				61121F2717D3599300E4E932 /* Debug */,
@@ -469,7 +469,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		61121F2917D3599300E4E932 /* Build configuration list for PBXNativeTarget "WorldClockTests" */ = {
+		61121F2917D3599300E4E932 /* Build configuration list for PBXNativeTarget "MarsClockTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				61121F2A17D3599300E4E932 /* Debug */,

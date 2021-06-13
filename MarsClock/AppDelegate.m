@@ -1,9 +1,10 @@
 //
 //  AppDelegate.m
-//  WorldClock
+//  MarsClock
 //
 //  Created by mkl on 9/1/13.
 //  Copyright (c) 2013 higheror. All rights reserved.
+//  Copyright (c) 2021 wangchun. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -22,7 +23,7 @@
 
 -(void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    NSTimer *timer = [NSTimer timerWithTimeInterval:1.0
+    NSTimer *timer = [NSTimer timerWithTimeInterval:1.0274912517
                                              target:self
                                            selector:@selector(updateTime)
                                            userInfo:nil
@@ -36,8 +37,8 @@
     self.timeFormatter = [NSDateFormatter new];
     self.dateFormatter = [NSDateFormatter new];
 
-    self.timeFormatter.timeZone = [NSTimeZone timeZoneWithAbbreviation:@"PDT"];
-    self.timeFormatter.dateFormat = @"h:mm a z";
+    self.timeFormatter.timeZone = [NSTimeZone timeZoneWithAbbreviation:@"UTC"];
+    self.timeFormatter.dateFormat = @"hh:mm:ss 'MTC'";
 
     self.dateFormatter.dateStyle = NSDateFormatterFullStyle;
 }
@@ -61,12 +62,12 @@
     quitItem.enabled = YES;
     quitItem.action = @selector(quit:);
 
-    [mainMenu addItem:self.dateItem];
-    [mainMenu addItem:[NSMenuItem separatorItem]];
+//    [mainMenu addItem:self.dateItem];
+//    [mainMenu addItem:[NSMenuItem separatorItem]];
     [mainMenu addItem:quitItem];
 
     // Create status item
-    self.statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
+    self.statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:87];
     self.statusItem.title = @"";
     self.statusItem.highlightMode = YES;
     self.statusItem.menu = mainMenu;
@@ -75,7 +76,7 @@
 #pragma mark - Actions
 -(void)updateTime
 {
-    NSDate *date = [NSDate date];
+    NSDate *date = [NSDate dateWithTimeIntervalSince1970:((double)(((int64_t)([[NSDate date] timeIntervalSince1970] * 1000) - 947116816577) % 88775244) / 88775244.0) * 86400];
 
     self.statusItem.title = [self.timeFormatter stringFromDate:date];
     self.dateItem.title = [self.dateFormatter stringFromDate:date];

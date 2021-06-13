@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:WorldClock.xcodeproj">
+      location = "self:MarsClock.xcodeproj">
    </FileRef>
 </Workspace>

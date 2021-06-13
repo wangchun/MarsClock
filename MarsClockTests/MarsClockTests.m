@@ -1,18 +1,19 @@
 //
-//  WorldClockTests.m
-//  WorldClockTests
+//  MarsClockTests.m
+//  MarsClockTests
 //
 //  Created by mkl on 9/1/13.
 //  Copyright (c) 2013 higheror. All rights reserved.
+//  Copyright (c) 2021 wangchun. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface WorldClockTests : XCTestCase
+@interface MarsClockTests : XCTestCase
 
 @end
 
-@implementation WorldClockTests
+@implementation MarsClockTests
 
 - (void)setUp
 {
